@@ -71,12 +71,6 @@ with gr.Blocks(title="AI Learning Chatbot — Gemini") as demo:
         fn=chat,
         additional_inputs=[mode_dropdown],
         title="",
-        examples=[
-            "What is machine learning?",
-            "Write Python code to read a CSV file",
-            "Explain neural networks like I'm 10"
-        ]
     )
-
 if __name__ == "__main__":
     demo.launch()
