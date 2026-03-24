@@ -33,3 +33,38 @@ print(type(response))
 print(dir(respionse)) 
 
 # This shows ALL atributes available
+
+# numpy_basics.py - Day 2 of AI\ML Journey
+# Topic: Numpy Fundamentalsfor ML
+
+import numpy as np
+
+# 1.Creating arrays
+scores = np.array[85, 91, 65, 29, 89, 75, 63, 74]
+print("Scores array:", scores)
+print("Shape", scores.shape)
+print("Data type", scores.dtype)
+print("Number of Dimensions", scores.ndim)
+
+
+# 2. Basic operations — these work element-by-element
+print("\n--- Array Operations ---")
+print("Mean score:", np.mean(scores))
+print("Max score:", np.max(scores))
+print("Min score:", np.min(scores))
+print("Standard deviation:", np.std(scores))
+print("Scores above 85:", scores[scores > 85])
+
+# 3. 2D arrays — this is what your data looks like in ML
+student_data = np.array([
+    [85, 92, 78],   # student 1: math, science, english
+    [95, 88, 91],   # student 2
+    [76, 83, 70],   # student 3
+    [91, 95, 88]    # student 4
+])
+print("\n--- 2D Array ---")
+print("Shape:", student_data.shape)         # (4, 3) — 4 students, 3 subjects
+print("All math scores:", student_data[:, 0])     # first column
+print("Student 1 scores:", student_data[0, :])    # first row
+print("Average per student:", np.mean(student_data, axis=1))
+print("Average per subject:", np.mean(student_data, axis=0))
