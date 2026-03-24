@@ -1,0 +1,13 @@
+student_id,name,math,science,english,attendance,city,passed_prev_year
+1,Rahul,85,78,90,92,Bhubaneswar,Yes
+2,Priya,92,95,88,98,Bangalore,Yes
+3,Arjun,,82,75,75,Hyderabad,No
+4,Neha,78,85,,88,Bangalore,Yes
+5,Vikram,65,70,68,60,Bhubaneswar,No
+6,Anjali,95,92,96,99,Chennai,Yes
+7,Rohan,55,,62,72,Hyderabad,No
+8,Deepa,88,90,85,95,Bangalore,Yes
+9,Suresh,72,68,70,,Bhubaneswar,Yes
+10,Kavya,91,88,93,97,Chennai,Yes
+11,Amit,48,52,55,65,Hyderabad,No
+12,Sneha,83,87,80,90,Bangalore,Yes
