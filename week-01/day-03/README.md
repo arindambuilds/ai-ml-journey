@@ -1,8 +1,8 @@
 # Day 3 — Data Visualisation + EDA
 
-**Date:** [today's date]
+**Date:** [25/03/26]
 **Time invested:** ~7 hours
-**Kaggle Notebook:** [paste your Kaggle notebook URL here]
+**Kaggle Notebook:** [https://lnkd.in/giC-R-My]
 
 ## What I Built
 - `matplotlib_basics.py` — Line, bar, scatter, histogram charts from scratch
