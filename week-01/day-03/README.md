@@ -37,3 +37,5 @@
 - Reading and interpreting correlation matrices
 - Identifying ML-ready vs unusable features
 
+## Kaggle Notebook
+[Titanic EDA](https://kaggle.com/code/arindambuilds/titanic-eda-week01-day03)
